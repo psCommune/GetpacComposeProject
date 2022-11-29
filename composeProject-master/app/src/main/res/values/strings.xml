@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">composeProject</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="user_name">Имя пользователя</string>
+    <string name="user_email">Адрес электронной почты</string>
+    <string name="user_password">Пароль</string>
+    <string name="title_activity_add_task">AddTaskActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="title_activity_edit_alarm">EditAlarm</string>
+    <string name="setting_1">Профиль пользователя ></string>
+    <string name="setting_2">Дата и время ></string>
+    <string name="setting_3">Настройки звука ></string>
+    <string name="setting_4">Проверить обновления ></string>
+    <string name="button_login">Войти</string>
+    <string name="button_reg">Регистрация</string>
+    <string name="No_log">Вход не выполнен</string>
+    <string name="title_activity_create_alarm">CreateAlarm</string>
+    <string name="title_activity_general">GeneralActivity</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+    <string name="title_activity_edit_task">EditTaskActivity</string>
+    <string name="title_activity_all_composables">AllComposablesActivity</string>
+</resources>
