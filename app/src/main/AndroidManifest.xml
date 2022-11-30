@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.bignerdranch.android.composeproject">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ComposeProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".AllComposablesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_all_composables"
+            android:theme="@style/Theme.ComposeProject" />
+        <activity
+            android:name=".EditTaskActivity"
+            android:exported="false"
+            android:label="@string/title_activity_edit_task"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ComposeProject">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AlarmActivity"
+            android:exported="false"
+            android:label="@string/title_activity_alarm"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ComposeProject">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".GeneralActivity"
+            android:exported="true"
+            android:label="@string/title_activity_general"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ComposeProject">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreateAlarm"
+            android:exported="false"
+            android:label="@string/title_activity_create_alarm"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ComposeProject" />
+        <activity
+            android:name=".AddTaskActivity"
+            android:exported="false"
+            android:label="@string/title_activity_add_task"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ComposeProject">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".EditAlarm"
+            android:exported="false"
+            android:label="@string/title_activity_edit_alarm"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ComposeProject">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CalendarActivity"
+            android:exported="false"
+            android:label="@string/title_activity_calendar"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ComposeProject">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ComposeProject" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false"
+            android:label="@string/title_activity_profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ComposeProject" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main2"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ComposeProject" />
+        <activity
+            android:name=".LogInActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ComposeProject"></activity>
+    </application>
+
+</manifest>
